@@ -15,7 +15,19 @@ public class Account {
     private Long id;
 
     private String accountHolderName;
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+    public void setAccountHolderName(String accountHolderName) {
+        this.accountHolderName = accountHolderName;
+    }
     private double balance;
+    public double getBalance() {
+        return balance;
+    }
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 
     // Getters and setters
 }
